@@ -3,4 +3,6 @@ TEMPLATE = subdirs
 SUBDIRS += \
     ObserverPatterns \
     PubSubPattern \
-    Singleton
+    Singleton \
+    SimpleFactory \
+    FactoryMethod
