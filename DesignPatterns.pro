@@ -5,4 +5,6 @@ SUBDIRS += \
     PubSubPattern \
     Singleton \
     SimpleFactory \
-    FactoryMethod
+    FactoryMethod \
+    Builder \
+    AbstractFactory
