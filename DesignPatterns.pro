@@ -7,4 +7,5 @@ SUBDIRS += \
     SimpleFactory \
     FactoryMethod \
     Builder \
-    AbstractFactory
+    AbstractFactory \
+    Prototype
