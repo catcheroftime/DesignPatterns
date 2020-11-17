@@ -6,5 +6,5 @@ CONFIG -= qt
 SOURCES += main.cpp
 
 HEADERS += \
-    prototype.h \
+    chinese.h \
     person.h
