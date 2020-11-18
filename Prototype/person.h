@@ -8,7 +8,7 @@ class Person
 {
 public:
     Person():m_year(0), m_name("") {}
-    ~Person(){}
+    virtual ~Person(){}
 
     virtual Person *clone() { return new Person(*this); }
 
