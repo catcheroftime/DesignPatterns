@@ -8,4 +8,5 @@ SUBDIRS += \
     FactoryMethod \
     Builder \
     AbstractFactory \
-    Prototype
+    Prototype \
+    Adapter
