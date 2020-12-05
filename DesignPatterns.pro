@@ -9,4 +9,5 @@ SUBDIRS += \
     Builder \
     AbstractFactory \
     Prototype \
-    Adapter
+    Adapter \
+    Proxy
