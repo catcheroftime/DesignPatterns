@@ -10,4 +10,5 @@ SUBDIRS += \
     AbstractFactory \
     Prototype \
     Adapter \
-    Proxy
+    Proxy \
+    Composition
