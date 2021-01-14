@@ -11,4 +11,5 @@ SUBDIRS += \
     Prototype \
     Adapter \
     Proxy \
-    Composition
+    Composition \
+    Decorator
