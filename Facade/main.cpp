@@ -1,9 +1,9 @@
-#include <iostream>
+#include "fund.h"
 
-using namespace std;
-
-int main(int argc, char *argv[])
+int main()
 {
-    cout << "Hello World!" << endl;
+    EFund e_fund;
+    e_fund.buy(100);
+
     return 0;
 }
