@@ -12,4 +12,5 @@ SUBDIRS += \
     Adapter \
     Proxy \
     Composition \
-    Decorator
+    Decorator \
+    Facade
