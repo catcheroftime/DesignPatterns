@@ -13,4 +13,5 @@ SUBDIRS += \
     Proxy \
     Composition \
     Decorator \
-    Facade
+    Facade \
+    Strategy
