@@ -14,4 +14,5 @@ SUBDIRS += \
     Composition \
     Decorator \
     Facade \
-    Strategy
+    Strategy \
+    TemplateMethod
