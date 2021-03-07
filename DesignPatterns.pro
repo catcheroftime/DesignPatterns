@@ -15,4 +15,5 @@ SUBDIRS += \
     Decorator \
     Facade \
     Strategy \
-    TemplateMethod
+    TemplateMethod \
+    Flyweight
