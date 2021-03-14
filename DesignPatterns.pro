@@ -16,4 +16,5 @@ SUBDIRS += \
     Facade \
     Strategy \
     TemplateMethod \
-    Flyweight
+    Flyweight \
+    Command
