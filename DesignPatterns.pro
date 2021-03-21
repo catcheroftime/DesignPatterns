@@ -17,4 +17,5 @@ SUBDIRS += \
     Strategy \
     TemplateMethod \
     Flyweight \
-    Command
+    Command \
+    Interpreter
