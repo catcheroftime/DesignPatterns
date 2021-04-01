@@ -11,6 +11,7 @@ SUBDIRS += \
     Prototype \
     Adapter \
     Proxy \
+    Bridge \
     Composition \
     Decorator \
     Facade \
@@ -18,4 +19,5 @@ SUBDIRS += \
     TemplateMethod \
     Flyweight \
     Command \
-    Interpreter
+    Interpreter \
+    ChainOfResponsibility \
