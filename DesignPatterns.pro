@@ -21,3 +21,4 @@ SUBDIRS += \
     Command \
     Interpreter \
     ChainOfResponsibility \
+    Memento
