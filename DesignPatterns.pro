@@ -21,4 +21,5 @@ SUBDIRS += \
     Command \
     Interpreter \
     ChainOfResponsibility \
-    Memento
+    Memento \
+    Mediator
