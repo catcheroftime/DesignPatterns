@@ -22,4 +22,5 @@ SUBDIRS += \
     Interpreter \
     ChainOfResponsibility \
     Memento\
-    State
+    State \
+    Mediator
