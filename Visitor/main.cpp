@@ -47,7 +47,7 @@ int main()
 
     cout << "-------------------------------" << endl;
 
-    ProjectA b;
+    ProjectB b;
     cout << "ÏîÄ¿ B °²ÅÅ : " << endl;
     for (auto i : staffs) {
         i->accept(&b);
