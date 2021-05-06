@@ -24,4 +24,5 @@ SUBDIRS += \
     Memento\
     State \
     Mediator \
-    Visitor
+    Visitor \
+    Iterator

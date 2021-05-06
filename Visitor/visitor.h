@@ -3,13 +3,17 @@
 
 #include "concreteelement.h"
 
+class CppDevEngineer;
+class GoDevEngineer;
+class PythonDevEngineer;
 
 class Visitor
 {
 public:
-    virtual ~IVisitor() {}
-    virtual void Visit(BellTower *) = 0;
-    virtual void Visit(TerracottaWarriors *) = 0;
+    virtual ~Visitor() {}
+    virtual void ArrangeCPP(CppDevEngineer *) = 0;
+    virtual void ArrangeGo(GoDevEngineer *) = 0;
+    virtual void ArrangePython(PythonDevEngineer *) = 0;
 };
 
 #endif // VISITOR_H

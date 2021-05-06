@@ -4,9 +4,3 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp
-
-HEADERS += \
-    element.h \
-    concreteelement.h \
-    visitor.h \
-    concretevisitor.h
