@@ -8,35 +8,34 @@
 using namespace std;
 
 class ProjectA : public Visitor {
-    virtual void ArrangeCPP(CppDevEngineer *element) {
-        cout << element->getName() << ", ProjectA éœ€è¦ä½ åšåŽç«¯å¼€å‘" << endl;
+public:
+    virtual void AssignedTasks(CppDevEngineer *element) {
+        cout << element->getName() << ", ProjectA ÐèÒªÄã×öºó¶Ë¿ª·¢" << endl;
     }
 
-    virtual void ArrangeGo(GoDevEngineer *element) {
-        cout << element->getName() << ", ProjectA éœ€è¦ä½ åšç®—æ³•å¼€å‘" << endl;
+    virtual void AssignedTasks(GoDevEngineer *element) {
+        cout << element->getName() << ", ProjectA ÐèÒªÄã×öËã·¨¿ª·¢" << endl;
     }
 
-    virtual void ArrangePython(PythonDevEngineer *element) {
-        cout << element->getName() << ", ProjectA éœ€è¦ä½ è‡ªåŠ¨åŒ–æµ‹è¯•" << endl;
+    virtual void AssignedTasks(PythonDevEngineer *element) {
+        cout << element->getName() << ", ProjectA ÐèÒªÄã×Ô¶¯»¯²âÊÔ" << endl;
     }
 };
 
 
 class ProjectB : public Visitor {
-    virtual void ArrangeCPP(CppDevEngineer *element) {
-        cout << element->getName() << ", ProjectB æš‚æ—¶ä¸éœ€è¦C++å¼€å‘å·¥ç¨‹å¸ˆå¼€å‘" << endl;
+public:
+    virtual void AssignedTasks(CppDevEngineer *element) {
+        cout << element->getName() << ", ProjectB ÔÝÊ±²»ÐèÒªC++¿ª·¢¹¤³ÌÊ¦¿ª·¢" << endl;
     }
 
-    virtual void ArrangeGo(GoDevEngineer *element) {
-        cout << element->getName() << ", ProjectB éœ€è¦ä½ åšåŽç«¯å¼€å‘" << endl;
+    virtual void AssignedTasks(GoDevEngineer *element) {
+        cout << element->getName() << ", ProjectB ÐèÒªÄã×öºó¶Ë¿ª·¢" << endl;
     }
 
-    virtual void ArrangePython(PythonDevEngineer *element) {
-        cout << element->getName() << ", ProjectB éœ€è¦ä½ åšå‰ç«¯å¼€å‘" << endl;
+    virtual void AssignedTasks(PythonDevEngineer *element) {
+        cout << element->getName() << ", ProjectB ÐèÒªÄã×öÇ°¶Ë¿ª·¢" << endl;
     }
 };
-
-
-
 
 #endif // CONCRETEVISITOR_H

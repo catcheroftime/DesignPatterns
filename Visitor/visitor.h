@@ -11,9 +11,9 @@ class Visitor
 {
 public:
     virtual ~Visitor() {}
-    virtual void ArrangeCPP(CppDevEngineer *) = 0;
-    virtual void ArrangeGo(GoDevEngineer *) = 0;
-    virtual void ArrangePython(PythonDevEngineer *) = 0;
+    virtual void AssignedTasks(CppDevEngineer *) = 0;
+    virtual void AssignedTasks(GoDevEngineer *) = 0;
+    virtual void AssignedTasks(PythonDevEngineer *) = 0;
 };
 
 #endif // VISITOR_H
