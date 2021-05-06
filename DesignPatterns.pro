@@ -23,4 +23,5 @@ SUBDIRS += \
     ChainOfResponsibility \
     Memento\
     State \
-    Mediator
+    Mediator \
+    Visitor

@@ -1,0 +1,12 @@
+#include "element.h"
+
+Element::Element(const string name)
+    : m_name(name)
+{
+    
+}
+
+string Element::getName()
+{
+    return m_name;   
+}
