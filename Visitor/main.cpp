@@ -25,22 +25,25 @@ int main()
 
     ProjectA a;
     cout << "ÏîÄ¿ A °²ÅÅ : " << endl;
-    for (auto i : staffs) {
-        if (auto p = dynamic_cast<CppDevEngineer *>(i)) {
-            a.AssignedTasks(p);
-            continue;
-        }
-
-        if (auto p = dynamic_cast<GoDevEngineer *>(i)) {
-            a.AssignedTasks(p);
-            continue;
-        }
-
-        if (auto p = dynamic_cast<PythonDevEngineer *>(i)) {
-            a.AssignedTasks(p);
-            continue;
-        }
+    for (auto i: staffs) {
+        i->accept(&a);
     }
+//    for (auto i : staffs) {
+//        if (auto p = dynamic_cast<CppDevEngineer *>(i)) {
+//            a.AssignedTasks(p);
+//            continue;
+//        }
+
+//        if (auto p = dynamic_cast<GoDevEngineer *>(i)) {
+//            a.AssignedTasks(p);
+//            continue;
+//        }
+
+//        if (auto p = dynamic_cast<PythonDevEngineer *>(i)) {
+//            a.AssignedTasks(p);
+//            continue;
+//        }
+//    }
 
     cout << "-------------------------------" << endl;
 
