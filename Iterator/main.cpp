@@ -1,20 +1,26 @@
 #include <iostream>
-#include <vector>
+#include <list>
 using namespace std;
 
 void test()
 {
-    vector<int> v;
-    for (int n = 0; n<5; ++n)
+    list<int> v;
+    for (int n = 0; n<8; ++n)
         v.push_back(n);
-    vector<int>::iterator i;
-    for (i = v.begin(); i != v.end(); ++i) {
+
+    list<int>::iterator i;
+
+    for (i = v.begin() ;i != v.end(); ++i) {
         cout << *i << " ";
         *i *= 2;
     }
     cout << endl;
-    for (vector<int>::reverse_iterator j = v.rbegin(); j != v.rend(); ++j)
-        cout << *j << " ";
+    for (i = v.begin() ;i != v.end(); ++i) {
+        cout << *i << " ";
+    }
+
+    cout << endl;
+    cout << *i << endl;
 }
 
 class A
@@ -40,7 +46,6 @@ struct  B
 
 int main()
 {
-    cout << sizeof(unsigned long) << endl;
-    cout << sizeof(A) << endl;
+    test();
     return 0;
 }
